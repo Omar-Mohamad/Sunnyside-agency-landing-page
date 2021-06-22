@@ -440,6 +440,7 @@ ul {
   }
   .service-container .service-image-container .service-image {
     width: 100%;
+    height: 100%;
   }
   .service-container .service-text {
     width: 50%;
