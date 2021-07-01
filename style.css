@@ -147,7 +147,7 @@ html {
 .last-two-services-container .graphic-design,
 .last-two-services-container .photography {
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 .graphic-design > .small-service-content > .small-service-title,
@@ -165,11 +165,13 @@ html {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
+  font-size: 1.3rem;
   font-family: "Fraunces", serif;
   color: #818498;
 }
 .testimonials {
   width: 100%;
+  height: 80vh;
 }
 .testimonials .testimonial {
   display: flex;
@@ -500,7 +502,7 @@ html {
   }
   .last-two-services-container .small-service {
     width: 50%;
-    height: 80vh;
+    height: 73vh;
   }
   .last-two-services-container .graphic-design {
     background-image: url(./images/desktop/image-graphic-design.jpg);
