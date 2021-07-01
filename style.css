@@ -286,21 +286,22 @@ html {
   .triangle {
     display: none;
     position: absolute;
-    top: 61.5px;
-    right: 30px;
-    border: 15px solid transparent;
-    border-bottom-color: white;
+    top: 80%;
+    right: 8%;
+    border-bottom: 30px solid white;
+    border-left: 30px solid transparent;
   }
 
   nav .nav-links {
     position: absolute;
-    top: 100%;
-    right: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 16%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 84%;
     height: auto;
     max-height: 0px;
     padding: 0;
@@ -394,8 +395,13 @@ html {
     display: flex;
     justify-content: space-between;
     z-index: 100;
-    padding: 2rem;
+    padding: 3rem;
   }
+
+  .logo {
+    width: 130%;
+  }
+
   nav .nav-links {
     display: flex;
     justify-content: center;
@@ -404,8 +410,12 @@ html {
   nav .nav-links li a {
     font-family: "Barlow", sans-serif;
     font-size: 18px;
-    margin-right: 1rem;
+    margin-right: 3rem;
     color: #fff;
+  }
+
+  .open .nav-links {
+    padding: 0;
   }
 
   .triangle {
@@ -419,6 +429,7 @@ html {
     background-color: #fff;
     color: #23303e;
     padding: 1.2rem;
+    margin-right: 0;
     transition: all 0.3s ease-in-out;
     border-radius: 35px;
     -webkit-border-radius: 35px;
