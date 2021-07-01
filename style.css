@@ -10,6 +10,11 @@ ul {
   list-style: none;
 }
 
+html {
+  scroll-padding-top: 5.7rem;
+  scroll-behavior: smooth;
+}
+
 .banner {
   position: relative;
   width: 100%;
@@ -277,6 +282,16 @@ ul {
     z-index: 100;
     padding: 2rem;
   }
+
+  .triangle {
+    display: none;
+    position: absolute;
+    top: 61.5px;
+    right: 30px;
+    border: 15px solid transparent;
+    border-bottom-color: white;
+  }
+
   nav .nav-links {
     position: absolute;
     top: 100%;
@@ -346,6 +361,11 @@ ul {
   max-height: 300px;
   padding: 2rem;
 }
+
+.open .triangle {
+  display: block;
+}
+
 .sticky {
   background-color: #3ebfff;
 }
@@ -387,6 +407,11 @@ ul {
     margin-right: 1rem;
     color: #fff;
   }
+
+  .triangle {
+    display: none;
+  }
+
   nav #contact-btn {
     text-transform: uppercase;
     font-family: "Fraunces", serif;

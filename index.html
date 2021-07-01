@@ -37,14 +37,17 @@
 
     <nav>
       <div class="logo">
-        <img src="images/logo.svg" alt="logo" class="logo-img" />
+        <a href="#home">
+          <img src="images/logo.svg" alt="logo" class="logo-img" />
+        </a>
       </div>
 
+      <span class="triangle"></span>
       <ul class="nav-links">
-        <li><a href="#"> About </a></li>
-        <li><a href="#"> Services </a></li>
-        <li><a href="#"> Projects </a></li>
-        <li><a id="contact-btn" href="#"> Contact </a></li>
+        <li><a href="#about"> About </a></li>
+        <li><a href="#services"> Services </a></li>
+        <li><a href="#projects"> Projects </a></li>
+        <li><a id="contact-btn" href="#contact"> Contact </a></li>
       </ul>
 
       <div class="burger">
@@ -56,7 +59,7 @@
 
     <!-- Banner  -->
 
-    <section class="banner">
+    <section id="home" class="banner">
       <div class="banner-content">
         <h1>We are creatives</h1>
         <img src="images/icon-arrow-down.svg" alt="arrow" />
@@ -65,7 +68,7 @@
 
     <!-- Services -->
 
-    <section class="services">
+    <section id="about" class="services">
       <!-- Service 1 -->
 
       <article id="service1" class="service-container">
@@ -133,7 +136,7 @@
 
       <!-- Last two services -->
 
-      <div class="last-two-services-container">
+      <div id="services" class="last-two-services-container">
         <!-- Service 3 -->
         <article class="small-service graphic-design">
           <div class="small-service-content">
@@ -228,7 +231,7 @@
 
     <!-- Projects -->
 
-    <section class="projects">
+    <section id="projects" class="projects">
       <!-- Project 1 -->
 
       <picture>
@@ -292,7 +295,7 @@
 
     <!-- Footer -->
 
-    <footer class="page-footer">
+    <footer id="contact" class="page-footer">
       <svg
         class="footer-logo"
         width="124"

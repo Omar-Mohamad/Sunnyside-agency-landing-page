@@ -1,5 +1,6 @@
 const nav = document.querySelector("nav"),
   linksContainer = document.querySelector(".nav-links"),
+  navLinks = document.querySelectorAll(".nav-links li a"),
   burger = document.querySelector(".burger");
 
 window.addEventListener("scroll", function () {
@@ -13,4 +14,11 @@ window.addEventListener("scroll", function () {
 burger.addEventListener("click", function () {
   nav.classList.toggle("open");
   this.classList.toggle("toggle");
+});
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    nav.classList.remove("open");
+    burger.classList.remove("toggle");
+  });
 });
